@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'inclusive-sans';
+    src: url(./assets/InclusiveSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'inclusive-sans-b';
+    src: url(./assets/InclusiveSans-Bold.ttf);
+}
+
+body {
+    font-family: 'inclusive-sans';
+    margin: 0px;
+}
+
+.container {
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 22%;
+    width: 46rem;
+    background-color: #6de299;
+    border-radius: 2%;
+}
+
+h1, .question, button  {
+  position: relative;
+  top: 19%;
+  left: 4.5rem;
+}
+h1 {
+    font-size: 3rem;
+    font-family: 'inclusive-sans-b';
+    margin-bottom: 1.5rem;
+}
+h1 span {
+    display: block;
+}
+
+.button {
+    background-color: white;
+    height: 1rem;
+    width: 1rem;
+}
+
+button {
+margin-top: 1.3rem;
+  border: none;
+  height: 3rem;
+  width: 15rem;
+  border-radius: 50px;
+  font-family: 'inclusive-sans-b';
+  font-size: 1.3rem;
+}
